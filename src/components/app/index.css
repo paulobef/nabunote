@@ -1,0 +1,7 @@
+[data-component=app] {
+  display: flex;
+}
+
+[data-component=note-list] {
+  width: 20%;
+}

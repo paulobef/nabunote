@@ -1,0 +1,15 @@
+[contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    display: block; /* For Firefox */
+  }
+  [contenteditable=inherit]:empty:before {
+    content: attr(placeholder);
+    display: block; /* For Firefox */
+  }
+
+[data-component=richTextEditor] {
+    padding: 3em;
+    height: 100%;
+    color: #222;
+    border-left: 1px solid grey;
+  }

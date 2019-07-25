@@ -1,0 +1,10 @@
+
+
+
+[data-component=note-item] {
+    border-bottom: 1px solid grey;
+}
+
+[data-component=note-content] {
+    padding: 1em;
+}
